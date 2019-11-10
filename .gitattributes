@@ -1,0 +1,2 @@
+# Declare files that will always have CRLF line endings on checkout. Note that original hbm.xml files had CRLF ending so preserve those.
+*.xml text eol=crlf
