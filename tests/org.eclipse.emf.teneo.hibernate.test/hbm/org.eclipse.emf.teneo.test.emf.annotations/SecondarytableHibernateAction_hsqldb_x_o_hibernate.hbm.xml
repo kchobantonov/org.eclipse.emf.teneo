@@ -25,7 +25,7 @@
 				<column not-null="false" unique="false" name="`ADDRESS`"/>
 			</property>
 		</join>
-		<join table="`person_photo`">
+		<join table="`PERSON_PHOTO`">
 			<key>
 				<column name="`ID`"/>
 			</key>
