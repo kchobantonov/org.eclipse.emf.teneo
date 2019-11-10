@@ -6,7 +6,7 @@
 
 		<eclass name="Person">
 			<secondary-table name="person_address"/>
-			<secondary-table name="person_photo"/>
+			<secondary-table name="PERSON_PHOTO"/>
 			<property name="id">
 				<id/>
 			</property>
@@ -16,7 +16,7 @@
 			</property>
 			<property name="photo">
 				<lob />
-				<column table="person_photo" length="1000000"/>				
+				<column table="PERSON_PHOTO" length="1000000"/>				
 			</property>
 		</eclass>
 
